@@ -13,10 +13,10 @@ function PriceRanges({priceMin, setPriceMin, priceMax, setPriceMax}) {
     <h2>
         Price Ranges
     </h2>
-    <p className="prices" onClick={() => changePrice(0,5)}>Under $5</p>
-    <p className="prices" onClick={() => changePrice(5,10)}>$5 to $10</p>
-    <p className="prices" onClick={() => changePrice(10,20)}>$10 to $20</p>
-    <p className="prices" onClick={() => changePrice(20,100)}>$20 & Above</p>
+    <p className="prices" onClick={() => changePrice(0,50)}>Under $50</p>
+    <p className="prices" onClick={() => changePrice(50,100)}>$50 to $100</p>
+    <p className="prices" onClick={() => changePrice(100,200)}>$100 to $200</p>
+    <p className="prices" onClick={() => changePrice(200,100000)}>$200 & Above</p>
     <Space>
     <InputNumber
       value={priceMin}

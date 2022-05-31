@@ -8,7 +8,7 @@ import BookStore from "../images/bookstore.png";
 import {ShoppingCartOutlined, MenuOutlined} from "@ant-design/icons";
 
 const {Search } = Input;
-const categories = ["Comics", "Dictionaries", "Novels", "Fantasy", "Horror", "Adventure"];
+const categories = ["Phones", "Books", "Clothing", "TVs", "Gaming", "Toys", "Music", "Cars"];
 
 const Header = () => {
   const { authenticate, account } = useMoralis();
