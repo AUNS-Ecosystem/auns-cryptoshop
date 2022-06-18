@@ -11,8 +11,8 @@ function Results({category, rating, priceMin, priceMax}) {
     <>
   {bookCategory.map((e,i) => {
     return (
-      <Card>
-      <div style={{ display: "flex" }}>
+      <Card padding-left="250px">
+      <div style={{ display: "flex"}}>
         <img src={e.image} alt={i} width="300px"></img>
         <div>
           <p className="title">
